@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Rectangle13 {
     public static void main(String[] args) {
  Scanner sc = new Scanner(System.in);
@@ -8,7 +9,7 @@ public class Rectangle13 {
  int kolom = sc.nextInt();
  for (int i = 1; i <= baris; i++) {
  for (int j = 1; j <= kolom; j++) {
- System.out.print("*");
+ System.out.print("#");
  }
  System.out.println();
  }
