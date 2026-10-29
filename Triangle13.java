@@ -7,15 +7,6 @@ public class Triangle13 {
       int n = sc.nextInt();
 
       int i = 1;
-      while (i <= n) {
-         int j = 0;
-         while (j < i){
-            System.out.print("*");
-            j++;
-         } 
-         System.out.println();
-         i++;
-      }
       i = n - 1;
       while (i>= 1){
          int j=0;
